@@ -1,0 +1,48 @@
+{
+  "name": "ababel-react",
+  "version": "1.0.0",
+  "description": "React flavor ababel",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
+  },
+  "repository": "a-labo/ababel-react",
+  "keywords": [],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/ababel-react/issues"
+  },
+  "homepage": "https://github.com/a-labo/ababel-react#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "ababel": "^1.0.8",
+    "ababel-es2015": "^1.0.0",
+    "ape-covering": "^3.0.3",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.2",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.7",
+    "ape-testing": "^4.0.1",
+    "ape-tmpl": "^5.0.13",
+    "ape-updating": "^4.0.4",
+    "coz": "^6.0.11",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "peerDependencies": {
+    "ababel": ">=1",
+    "ababel-es2015": ">=1"
+  }
+}
