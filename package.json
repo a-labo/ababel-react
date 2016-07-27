@@ -1,6 +1,6 @@
 {
   "name": "ababel-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React flavor ababel",
   "main": "lib",
   "scripts": {
@@ -24,8 +24,8 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.0.19",
-    "ababel-es2015": "^1.0.2",
+    "ababel": "^1.0.22",
+    "ababel-es2015": "^1.0.3",
     "amocha": "^1.0.8",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.2",
