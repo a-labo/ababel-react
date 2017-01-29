@@ -1,14 +1,17 @@
 {
   "name": "ababel-react",
-  "version": "1.0.7",
+  "version": "2.0.1",
   "description": "React flavor ababel",
   "main": "lib",
+  "browser": "shim/browser.js",
   "scripts": {
-    "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
   },
   "repository": "a-labo/ababel-react",
-  "keywords": [],
+  "keywords": [
+    "ababel"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishitaka.com@gmail.com",
@@ -24,12 +27,11 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.1.0",
-    "ababel-es2015": "^1.0.6",
+    "ababel": "^2.0.0",
+    "ababel-es2015": "^2.0.0",
     "amocha": "^1.0.14",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
@@ -38,7 +40,7 @@
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
+    "npm": ">=4"
   },
   "peerDependencies": {
     "ababel": ">=1",
